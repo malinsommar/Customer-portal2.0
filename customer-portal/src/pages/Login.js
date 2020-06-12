@@ -4,15 +4,14 @@ import "../style/buttons.css";
 import { NavLink } from "react-router-dom";
 import CardComponent from "../components/CardComponent";
 import ButtonComponent from "../components/Button";
+import FormComponent from "../components/FormComponent";
 
 const LoginForm = () => {
   return (
     <div>
       <form>
-        <p>Enter your email:</p>
-        <input type="username"></input>
-        <p>Enter your password:</p>
-        <input type="password"></input>
+        <FormComponent value="Enter your email:" type="username" />
+        <FormComponent value="Enter your password:" type="password" />
         <p>If u don't have an account please press "Register"</p>
         <NavLink to="/register" activeClassName="isActive">
           <ButtonComponent title={"Registrera"} className="homePageButtons" />

@@ -1,7 +1,10 @@
 import React from "react";
 import "../style/Register.css";
+import "../style/buttons.css";
 import { NavLink } from "react-router-dom";
 import CardComponent from "../components/CardComponent";
+import FormComponent from "../components/FormComponent";
+import ButtonComponent from "../components/Button";
 
 const RegisterForm = () => {
   return (
@@ -9,25 +12,32 @@ const RegisterForm = () => {
       <h1>Register</h1>
       <hr />
       <form className="registerForm">
-        <p id="förnamnText">Förnamn</p>
-        <input id="förnamnBox" type="name"></input>
-        <p id="efternamnText">Efternamn</p>
-        <input id="efternamnBox" type="lastname"></input>
-        <p id="personnummerText">Personnummer</p>
-        <input id="personnummerBox" type="social-security-number"></input>
-        <p id="adressText">Adress</p>
-        <input id="adressBox" type="adress"></input>
-        <p id="postortText">Postort</p>
-        <input id="postortBox" type="city"></input>
-        <p id="postnummerText">Postnummer</p>
-        <input id="postnummerBox" type="zip-code"></input>
-        <p id="telefonnummerText">Telefonnummer</p>
-        <input id="telefonnummerBox" type="Phone-number"></input>
-        <p id="emailText">Email</p>
-        <input id="emailBox" type="email"></input>
+        <FormComponent id="name" value="Förnamn" type="name" />
+        <FormComponent id="lastname" value="Efternamn" type="lastname" />
+        <FormComponent
+          id="social-security-number"
+          value="Personnummer"
+          type="social-security-number"
+        />
+        <FormComponent id="adress" value="Adress" type="adress" />
+        <FormComponent id="city" value="Postort" type="city" />
+        <FormComponent id="zip-code" value="Postnummer" type="zip-code" />
+        <FormComponent
+          id="phone-number"
+          value="Teledonnummer"
+          type="phone-number"
+        />
+        <FormComponent id="email" value="Email" type="email" />
+        <FormComponent id="password" value="Lösenord" type="password" />
+        <FormComponent
+          id="confirm-password"
+          value="Bekräfta lösenord"
+          type="password"
+        />
         <br />
         <NavLink to="/login" activeClassName="isActive">
-          <button>Register</button>
+          <ButtonComponent title="Register" className="homePageButtons" />
+          <ButtonComponent title="Tillbaka" />
         </NavLink>
       </form>
     </div>
