@@ -1,26 +1,35 @@
 import HeaderComponent from "../components/Header";
 import ButtonComponent from "../components/Button";
+import CardComponent from "../components/CardComponent";
+import SettingButtonsComponent from "../components/SettingButtons";
 import React from "react";
-import { NavLink } from "react-router-dom";
 import "../style/settings.css";
 
-const Preferences = () => {
+const PreferencesChild = () => {
   return (
     <div>
       <HeaderComponent />
-      <div id="page">Preferences</div>
-      <div className="page">
-        My profile
+      <div>
         <br />
-        <NavLink to="/settings/myProfile" activeClassName="isActive">
-          <ButtonComponent title="Min Profil" className="settingButtons" />
-        </NavLink>
-        <NavLink to="/settings/changePassword" activeClassName="isActive">
-          <ButtonComponent title="Byt lösenord" className="settingButtons" />
-        </NavLink>
-        <NavLink to="/settings/preferences" activeClassName="isActive">
-          <ButtonComponent title="Preferenser" className="settingButtons" />
-        </NavLink>
+        <SettingButtonsComponent />
+        <hr className="lines" />
+        <br />
+        <br />
+        <hr className="lines" />
+        <div id="saveButtonPreferences">
+          <ButtonComponent title="Spara" className="saveButtons" />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const Preferences = () => {
+  return (
+    <div className="page">
+      <p className="settingsTag">Inställningar</p>
+      <div className="changePasswordCard">
+        <CardComponent children={PreferencesChild()} />
       </div>
     </div>
   );
