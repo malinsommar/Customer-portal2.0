@@ -1,0 +1,22 @@
+#homeTag {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #656565;
+  font-size: 1.6vw;
+}
+
+#homePage {
+  position: relative;
+  margin-left: 19vw;
+}
+
+#card {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2vw;
+  border-radius: 4px;
+  background-color: #ffd98d;
+  color: #3d4465;
+  height: 4vw;
+  width: 77vw;
+  padding-left: 2vw;
+  padding-top: 0.1vw;
+}

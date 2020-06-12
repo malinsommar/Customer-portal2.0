@@ -1,0 +1,102 @@
+#header {
+  height: 100%;
+  width: 17vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #3c3c3b;
+  padding-top: 20px;
+}
+
+#header button {
+  font-size: 1vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.headerButtons {
+  padding: 6px 8px 6px 16px;
+  width: 100%;
+  text-decoration: none;
+  font-size: 25px;
+  color: #c9b791;
+  display: block;
+  padding-top: 0.9vw;
+  padding-bottom: 0.9vw;
+  padding-left: 4vw;
+  border: none;
+  text-align: left;
+}
+
+#home {
+  background: #363636 url(../images/home-icon.svg) no-repeat 2vw center;
+}
+
+#portfolio {
+  background: #363636 url(../images/portfolio-icon.png) no-repeat 2vw center;
+}
+
+#settings {
+  background: #363636 url(../images/settings-icon.svg) no-repeat 2vw center;
+}
+
+#home:hover {
+  color: #fdcc68;
+  background: #292929 url(../images/home-icon.svg) no-repeat 2vw center;
+}
+
+#portfolio:hover {
+  color: #fdcc68;
+  background: #292929 url(../images/portfolio-icon.png) no-repeat 2vw center;
+}
+
+#settings:hover {
+  color: #fdcc68;
+  background: #292929 url(../images/settings-icon.svg) no-repeat 2vw center;
+}
+
+#logOutButton {
+  padding: 6px 8px 6px 16px;
+  width: 15vw;
+  text-decoration: none;
+  font-size: 25px;
+  color: #c9b791;
+  display: block;
+  padding: 0.5vw;
+  border: none;
+  background: #3c3c3b url(../images/logout-icon.svg) no-repeat 3vw center;
+  margin-left: 1vw;
+  position: fixed;
+  bottom: 1vw;
+  left: 1vw;
+}
+
+#logOutButton:hover {
+  color: #fdcc68;
+}
+
+#headerLine {
+  position: fixed;
+  top: 41.5vw;
+  width: 8vw;
+  left: 4.7vw;
+  background-color: #c9b791;
+  height: 0.1vw;
+  border: none;
+}
+
+#icon {
+  height: 7vw;
+  width: 16vw;
+  position: relative;
+  right: 1vw;
+  margin-bottom: 1vw;
+}
+
+.navLink {
+  text-decoration: none;
+}
+/*
+svg:hover {
+  fill: red;
+}
+*/

@@ -1,0 +1,43 @@
+.homePageButtons {
+  color: white;
+  background: #3c3c3b;
+  border-radius: 4px;
+  height: 2.5vw;
+  width: 7vw;
+  border: none;
+  font-size: 0.9vw;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.saveButtons {
+  color: white;
+  background-color: #fdcc6b;
+  border-radius: 4px;
+  height: 2.5vw;
+  width: 7vw;
+  border: none;
+  font-size: 0.9vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.settingButtons {
+  background: none;
+  border: none;
+  color: #a1a8c3;
+  font-size: 1.2vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.settingButtons:hover {
+  color: #fdcc6b;
+}
+
+/*
+<ButtonComponent title="Redigera" className="homePageButtons" />
+<ButtonComponent title="Min portfölj" className="homePageButtons" />
+<ButtonComponent title="Spara" className="saveButtons" />
+<ButtonComponent title="Min Profil" className="settingButtons" />
+<ButtonComponent title="Byt lösenord" className="settingButtons" />
+<ButtonComponent title="Preferenser" className="settingButtons" />
+*/
