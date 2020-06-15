@@ -9,22 +9,11 @@
   font-size: 1.6vw;
 }
 
-.buttons {
-  position: relative;
-  left: 1vw;
-  top: -0.5vw;
-}
-
 .changePasswordCard {
   position: relative;
   top: 0.5vw;
   width: 77vw;
   height: 35vw;
-
-  background: blue 0% 0% no-repeat padding-box;
-  box-shadow: 0px 1px 15px #45414e14;
-  border-radius: 4px;
-  opacity: 1;
 }
 
 .lines {
@@ -34,6 +23,32 @@
 
 #saveButtonChangePassword {
   position: relative;
-  top: 8vw;
+  top: -0.3vw;
   left: 68.5vw;
+  width: 0vw;
+}
+
+#saveButtonMyProfile {
+  position: relative;
+  top: -0.3vw;
+  left: 68.5vw;
+  width: 0vw;
+}
+
+#saveButtonPreferences {
+  position: relative;
+  top: -0.3vw;
+  left: 68.5vw;
+  width: 0vw;
+}
+
+#changePasswordForm {
+  position: relative;
+  left: 3vw;
+}
+
+.buttons {
+  position: relative;
+  left: 1vw;
+  top: -0.5vw;
 }

@@ -1,8 +1,9 @@
 import HeaderComponent from "../components/Header";
 import ButtonComponent from "../components/Button";
 import CardComponent from "../components/CardComponent";
+import FormComponent from "../components/FormComponent";
+import SettingButtonsComponent from "../components/SettingButtons";
 import React from "react";
-import { NavLink } from "react-router-dom";
 import "../style/settings.css";
 
 const ChangePasswordChild = () => {
@@ -11,26 +12,28 @@ const ChangePasswordChild = () => {
       <HeaderComponent />
       <div>
         <br />
-        <div className="buttons">
-          <NavLink to="/settings/myProfile" activeClassName="isActive">
-            <ButtonComponent title="Min Profil" className="settingButtons" />
-          </NavLink>
-          <NavLink to="/settings/changePassword" activeClassName="isActive">
-            <ButtonComponent title="Byt lösenord" className="settingButtons" />
-          </NavLink>
-          <NavLink to="/settings/preferences" activeClassName="isActive">
-            <ButtonComponent title="Preferenser" className="settingButtons" />
-          </NavLink>
-        </div>
+        <SettingButtonsComponent />
         <hr className="lines" />
-        <form>
-          <p>Nuvarande lösenord:</p>
-          <input type="currentPassword"></input>
-          <p>Nytt lösenord:</p>
-          <input type="newPassword"></input>
-          <p>Bekräfta nytt lösenord:</p>
-          <input type="newPasswordAgain"></input>
+        <form id="changePasswordForm">
+          <FormComponent
+            id="currentPassword"
+            value="Nuvarande lösenord"
+            type="password"
+          />
+          <br />
+          <br />
+          <FormComponent
+            id="currentPassword"
+            value="Nytt lösenord"
+            type="password"
+          />
+          <FormComponent
+            id="currentPassword"
+            value="Bekräfta nytt lösenord"
+            type="password"
+          />
         </form>
+        <br />
         <hr className="lines" />
         <div id="saveButtonChangePassword">
           <ButtonComponent title="Spara" className="saveButtons" />
