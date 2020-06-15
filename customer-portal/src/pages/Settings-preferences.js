@@ -1,6 +1,7 @@
 import HeaderComponent from "../components/Header";
 import ButtonComponent from "../components/Button";
 import CardComponent from "../components/CardComponent";
+import FormComponent from "../components/FormComponent";
 import SettingButtonsComponent from "../components/SettingButtons";
 import React from "react";
 import "../style/settings.css";
@@ -14,6 +15,10 @@ const PreferencesChild = () => {
         <SettingButtonsComponent />
         <hr className="lines" />
         <br />
+        <form id="preferencesForm">
+          <input type="checkbox"></input>
+          <p>Test</p>
+        </form>
         <br />
         <hr className="lines" />
         <div id="saveButtonPreferences">
