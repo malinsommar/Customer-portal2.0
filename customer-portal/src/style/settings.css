@@ -9,6 +9,26 @@
   font-size: 1.6vw;
 }
 
+.lines {
+  border: 0.07vw solid #edeff3;
+  width: 77vw;
+}
+
+.saveButton {
+  position: relative;
+  top: -0.3vw;
+  left: 68.5vw;
+  width: 0vw;
+}
+
+.buttons {
+  position: relative;
+  left: 1vw;
+  top: -0.5vw;
+}
+
+/* --Change password page-- */
+
 .changePasswordCard {
   position: relative;
   top: 0.5vw;
@@ -16,39 +36,69 @@
   height: 35vw;
 }
 
-.lines {
-  border: 0.07vw solid #edeff3;
-  width: 77vw;
-}
-
-#saveButtonChangePassword {
-  position: relative;
-  top: -0.3vw;
-  left: 68.5vw;
-  width: 0vw;
-}
-
-#saveButtonMyProfile {
-  position: relative;
-  top: -0.3vw;
-  left: 68.5vw;
-  width: 0vw;
-}
-
-#saveButtonPreferences {
-  position: relative;
-  top: -0.3vw;
-  left: 68.5vw;
-  width: 0vw;
-}
-
 #changePasswordForm {
   position: relative;
   left: 3vw;
 }
 
-.buttons {
+/* --preferences page-- */
+
+#prefText {
   position: relative;
-  left: 1vw;
-  top: -0.5vw;
+  color: #a1abc3;
+  left: 2vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1vw;
+}
+
+input[type="checkbox"] {
+  height: 1.4vw;
+  width: 1.4vw;
+  color: #656565;
+  border: 2px solid #656565;
+}
+
+#leftBoxes {
+  position: relative;
+  left: 2vw;
+}
+
+#rightBoxes {
+  position: relative;
+  left: 13vw;
+  top: -7.74vw;
+}
+
+.checkboxText {
+  color: #3d4465;
+}
+
+#bankDiv {
+  position: relative;
+  top: -4vw;
+}
+
+#bankInfo {
+  position: relative;
+  left: 2vw;
+  color: #3d4465;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.05vw;
+}
+
+#linkToBank {
+  position: relative;
+  left: 2vw;
+  color: #fdcc6b;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.1vw;
+}
+
+#linkText {
+  position: relative;
+  left: 18vw;
+  top: -2.33vw;
+  color: #a1abc3;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1vw;
 }

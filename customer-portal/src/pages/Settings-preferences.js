@@ -6,6 +6,17 @@ import SettingButtonsComponent from "../components/SettingButtons";
 import React from "react";
 import "../style/settings.css";
 
+const checkBoxes = [
+  "Bygg",
+  "Medicin",
+  "It",
+  "Resturang",
+  "Transport",
+  "Leksaker",
+  "Mode",
+  "Allt",
+];
+
 const PreferencesChild = () => {
   return (
     <div>
@@ -15,13 +26,66 @@ const PreferencesChild = () => {
         <SettingButtonsComponent />
         <hr className="lines" />
         <br />
-        <form id="preferencesForm">
-          <input type="checkbox"></input>
-          <p>Test</p>
+        <p id="prefText">Mina prefererade industrier att investera inom.</p>
+        <form id="boxForm">
+          <div id="leftBoxes">
+            <input type="checkbox" id="myCheck" />
+            <label for="myCheck" className="checkboxText">
+              Bygg
+            </label>
+            <span className="checkBox"></span>
+            <br />
+            <input type="checkbox" id="myCheck" />
+            <label for="myCheck" className="checkboxText">
+              Medicin
+            </label>
+            <br />
+            <input type="checkbox" id="myCheck" />
+            <label for="myCheck" className="checkboxText">
+              It
+            </label>
+            <br />
+            <input type="checkbox" id="myCheck" />
+            <label for="myCheck" className="checkboxText">
+              Resturang
+            </label>
+          </div>
+          <div id="rightBoxes">
+            <input type="checkbox" id="myCheck" />
+            <label for="myCheck" className="checkboxText">
+              Transport
+            </label>
+            <br />
+            <input type="checkbox" id="myCheck" />
+            <label for="myCheck" className="checkboxText">
+              Leksaker
+            </label>
+            <br />
+            <input type="checkbox" id="myCheck" />
+            <label for="myCheck" className="checkboxText">
+              Mode
+            </label>
+            <br />
+            <input type="checkbox" id="myCheck" />
+            <label for="myCheck" className="checkboxText">
+              Allt
+            </label>
+          </div>
         </form>
+        <div id="bankDiv">
+          <p id="bankInfo">
+            Tips! Ifall du väljer att inegrera din bank så kan vi anpassa dina
+            <br />
+            investeringar utefter din ekonomi och prefereser.
+          </p>
+          <a href="bank.se" id="linkToBank">
+            Integrera min bank
+          </a>
+          <p id="linkText">(Detta kommer skicka dig vidare till din bank.)</p>
+        </div>
         <br />
         <hr className="lines" />
-        <div id="saveButtonPreferences">
+        <div className="saveButton">
           <ButtonComponent title="Spara" className="saveButtons" />
         </div>
       </div>
