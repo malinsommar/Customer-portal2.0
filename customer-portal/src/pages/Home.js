@@ -35,7 +35,9 @@ const MyProfileHome = () => {
         to="/settings/myProfile"
         activeClassName="isActive"
       >
-        <ButtonComponent title="Redigera" className="homePageButtons" />
+        <div id="profilePageButton">
+          <ButtonComponent title="Redigera" className="homePageButtons" />
+        </div>
       </NavLink>
       <hr id="profile"></hr>
 

@@ -27,7 +27,7 @@
 #profile {
   width: 33vw;
 }
-.homePageButtons {
+#profilePageButton {
   position: relative;
   left: 25vw;
   top: -2vw;
