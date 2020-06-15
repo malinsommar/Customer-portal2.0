@@ -20,3 +20,32 @@
   padding-left: 2vw;
   padding-top: 0.1vw;
 }
+
+#MyProfileHome {
+  width: 33vw;
+}
+#profile {
+  width: 33vw;
+}
+.homePageButtons {
+  position: relative;
+  left: 25vw;
+  top: -2vw;
+}
+#myProfile {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  left: 1vw;
+  top: 1.5vw;
+  letter-spacing: 0px;
+  color: #3c4368;
+  opacity: 1;
+}
+.info {
+  color: #a1a8c3;
+  opacity: 1;
+}
+.info-profile {
+  color: #3d4465;
+  opacity: 1;
+}
