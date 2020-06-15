@@ -35,7 +35,7 @@ const ChangePasswordChild = () => {
         </form>
         <br />
         <hr className="lines" />
-        <div id="saveButtonChangePassword">
+        <div className="saveButton">
           <ButtonComponent title="Spara" className="saveButtons" />
         </div>
       </div>
