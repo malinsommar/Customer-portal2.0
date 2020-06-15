@@ -1,20 +1,9 @@
-.registerForm {
-  color: #a1a8c3;
-}
-.RegisterCard {
-  top: 73px;
-  left: 244px;
-  width: 1012px;
-  height: 849px;
-}
-hr {
-  top: 131px;
-  left: 244px;
-  width: 1012px;
-  height: 0px;
-  border: 1px solid #edeff3;
+#bild {
+  width: 125px;
+  height: 125px;
   opacity: 1;
 }
+
 #name {
   position: relative;
   left: 3vw;
@@ -59,14 +48,4 @@ hr {
   position: relative;
   left: 3vw;
   top: -3vw;
-}
-#password {
-  position: relative;
-  left: 3vw;
-  top: -1vw;
-}
-#confirm-password {
-  position: relative;
-  left: 20vw;
-  top: -7.5vw;
 }

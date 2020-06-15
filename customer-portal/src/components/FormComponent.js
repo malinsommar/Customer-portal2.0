@@ -1,10 +1,11 @@
 import React from "react";
+import "../style/FormComponent.css";
 
 const FormComponent = ({ value, id, type }) => {
   return (
-    <div>
-      <p id={id}>{value}</p>
-      <input type={type}></input>
+    <div id={id}>
+      <p className="text">{value}</p>
+      <input className="box" type={type}></input>
     </div>
   );
 };
