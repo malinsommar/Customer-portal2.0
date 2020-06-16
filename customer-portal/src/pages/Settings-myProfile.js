@@ -16,7 +16,12 @@ const MyProfileChild = () => {
         <SettingButtonsComponent />
         <hr className="lines" />
 
-        <p id="bild">Bild</p>
+        <div id="profileimg"></div>
+
+        <input id="file" type="file" hidden></input>
+        <label id="fileLabel" for="file">
+          <p className="editPen" id="editButton"></p>
+        </label>
 
         <FormComponent id="name" value="Förnamn" type="name" />
         <FormComponent id="lastname" value="Efternamn" type="lastname" />
@@ -36,7 +41,7 @@ const MyProfileChild = () => {
         <FormComponent id="email" value="Email" type="email" />
 
         <hr className="lines" />
-        <div id="saveButtonMyProfile">
+        <div className="saveButton">
           <ButtonComponent title="Spara" className="saveButtons" />
         </div>
       </div>
