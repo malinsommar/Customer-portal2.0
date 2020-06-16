@@ -15,6 +15,7 @@ const MyProfileChild = () => {
         <br />
         <SettingButtonsComponent />
         <hr className="lines" />
+
         <p id="bild">Bild</p>
 
         <FormComponent id="name" value="Förnamn" type="name" />

@@ -42,6 +42,11 @@ const MyProfileHome = () => {
       <hr id="profile"></hr>
 
       <p>Bild</p>
+      <div>
+        <p>Namn hämtas från databasen</p>
+        <p className="info">Person Nr/Organisations nr</p>
+        <p>Personnummer från databasen</p>
+      </div>
 
       <p className="info">Föredragna industrier</p>
 
