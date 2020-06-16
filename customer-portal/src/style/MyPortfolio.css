@@ -1,0 +1,89 @@
+.myPortfolioCard {
+  width: 78vw;
+  position: relative;
+  top: -1.5vw;
+}
+
+.myPortfolioTag {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #656565;
+  font-size: 1.6vw;
+}
+
+#lastUpdatedTag {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #a1a8c3;
+  font-size: 1vw;
+  position: relative;
+  top: -3vw;
+  left: 10.5vw;
+  width: 20vw;
+}
+
+#tableDiv {
+  height: 32vw;
+  overflow: auto;
+}
+
+#pageInfo {
+  position: fixed;
+  height: 6vw;
+  width: 78vw;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.firstCell {
+  padding-right: 8vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #3c3c3b;
+  font-size: 1vw;
+  padding-bottom: 1vw;
+  padding-top: 1vw;
+}
+
+.cell {
+  padding-right: 4vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #3c3c3b;
+  font-size: 1vw;
+  padding-bottom: 1vw;
+  padding-top: 1vw;
+}
+
+.firstTopCell {
+  padding-right: 8vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #a1a8c3;
+  font-size: 1vw;
+  padding-bottom: 1vw;
+  padding-top: 1vw;
+}
+
+.topCell {
+  padding-right: 4vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #a1a8c3;
+  font-size: 1vw;
+  padding-bottom: 1vw;
+  padding-top: 1vw;
+}
+
+.icon {
+  height: 2vw;
+  width: 2vw;
+}
+
+table {
+  margin-left: 1.6vw;
+  border-collapse: collapse;
+}
+
+tr.bordered {
+  border-bottom: 1pt solid #eef3ff;
+}
+
+#choosePage {
+  margin-top: 3vw;
+  margin-left: 2vw;
+}
