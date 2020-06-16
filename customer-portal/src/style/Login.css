@@ -1,6 +1,30 @@
 .LoginCard {
-  top: 73px;
-  left: 244px;
-  width: 1012px;
-  height: 849px;
+  position: relative;
+  top: 10vw;
+  left: 25vw;
+  width: 50vw;
+  height: 30vw;
+}
+#user {
+  position: relative;
+  top: 1vw;
+  left: 18vw;
+}
+#passwordLogin {
+  position: relative;
+  top: 0.5vw;
+  left: 18vw;
+}
+#textInfo {
+  position: relative;
+  text-align: center;
+  top: 3vw;
+}
+#loginButton {
+  position: relative;
+  left: 20vw;
+  bottom: 3vw;
+}
+a {
+  color: #fdcc6b;
 }

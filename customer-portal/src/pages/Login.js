@@ -10,14 +10,20 @@ const LoginForm = () => {
   return (
     <div>
       <form>
-        <FormComponent value="Enter your email:" type="username" />
-        <FormComponent value="Enter your password:" type="password" />
-        <p>If u don't have an account please press "Register"</p>
-        <NavLink to="/register" activeClassName="isActive">
-          <ButtonComponent title={"Registrera"} className="homePageButtons" />
-        </NavLink>
+        <FormComponent id="user" value="Enter your email:" type="username" />
+        <FormComponent
+          id="passwordLogin"
+          value="Enter your password:"
+          type="password"
+        />
+        <p id="textInfo">
+          Saknar du ett konto?
+          <a href="/register"> Skapa konto</a>
+        </p>
         <NavLink to="/home" activeClassName="isActive">
-          <ButtonComponent title={"Login"} className="saveButtons" />
+          <div id="loginButton">
+            <ButtonComponent title={"Login"} className="saveButtons" />
+          </div>
         </NavLink>
       </form>
     </div>
