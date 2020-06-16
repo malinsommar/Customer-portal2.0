@@ -7,7 +7,7 @@ class HeaderComponent extends React.Component {
   render() {
     return (
       <div id="header">
-        <img id="icon" src={icon}></img>
+        <img id="icon" src={icon} alt="icon"></img>
         <NavLink className="navLink" to="/home" activeClassName="isActive">
           <button id="home" className="headerButtons">
             Hem

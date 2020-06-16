@@ -33,6 +33,19 @@
   color: #fdcc6b;
 }
 
+.portfolioButtons {
+  width: 2.3vw;
+  height: 2.3vw;
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.6vw;
+  background-color: #feebc4;
+  margin-right: 0.2vw;
+}
+
+.portfolioButtons:hover {
+  background-color: #fdcc6b;
+}
 /*
 <ButtonComponent title="Redigera" className="homePageButtons" />
 <ButtonComponent title="Min portfölj" className="homePageButtons" />

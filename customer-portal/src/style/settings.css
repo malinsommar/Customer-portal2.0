@@ -19,6 +19,7 @@
   top: -0.3vw;
   left: 68.5vw;
   width: 0vw;
+  margin: 0px;
 }
 
 .buttons {
@@ -66,7 +67,9 @@ input[type="checkbox"] {
 #rightBoxes {
   position: relative;
   left: 13vw;
-  top: -7.74vw;
+  bottom: 7.8vw;
+  width: 13vw;
+  margin: 0vw;
 }
 
 .checkboxText {
@@ -76,6 +79,7 @@ input[type="checkbox"] {
 #bankDiv {
   position: relative;
   top: -4vw;
+  margin-right: 0px;
 }
 
 #bankInfo {
@@ -92,6 +96,7 @@ input[type="checkbox"] {
   color: #fdcc6b;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.1vw;
+  margin-right: 0px;
 }
 
 #linkText {
@@ -101,4 +106,6 @@ input[type="checkbox"] {
   color: #a1abc3;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1vw;
+  width: 30vw;
+  margin-right: 0px;
 }

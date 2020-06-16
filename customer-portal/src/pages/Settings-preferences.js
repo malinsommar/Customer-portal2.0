@@ -27,49 +27,35 @@ const PreferencesChild = () => {
         <hr className="lines" />
         <br />
         <p id="prefText">Mina prefererade industrier att investera inom.</p>
-        <form id="boxForm">
-          <div id="leftBoxes">
-            <input type="checkbox" id="myCheck" />
-            <label for="myCheck" className="checkboxText">
-              Bygg
-            </label>
-            <span className="checkBox"></span>
-            <br />
-            <input type="checkbox" id="myCheck" />
-            <label for="myCheck" className="checkboxText">
-              Medicin
-            </label>
-            <br />
-            <input type="checkbox" id="myCheck" />
-            <label for="myCheck" className="checkboxText">
-              It
-            </label>
-            <br />
-            <input type="checkbox" id="myCheck" />
-            <label for="myCheck" className="checkboxText">
-              Resturang
-            </label>
-          </div>
-          <div id="rightBoxes">
-            <input type="checkbox" id="myCheck" />
-            <label for="myCheck" className="checkboxText">
-              Transport
-            </label>
-            <br />
-            <input type="checkbox" id="myCheck" />
-            <label for="myCheck" className="checkboxText">
-              Leksaker
-            </label>
-            <br />
-            <input type="checkbox" id="myCheck" />
-            <label for="myCheck" className="checkboxText">
-              Mode
-            </label>
-            <br />
-            <input type="checkbox" id="myCheck" />
-            <label for="myCheck" className="checkboxText">
-              Allt
-            </label>
+        <form>
+          <div id="formDiv">
+            <div id="leftBoxes">
+              <input type="checkbox" id="myCheck" />
+              <label className="checkboxText">Bygg</label>
+              <span className="checkBox"></span>
+              <br />
+              <input type="checkbox" id="myCheck" />
+              <label className="checkboxText">Medicin</label>
+              <br />
+              <input type="checkbox" id="myCheck" />
+              <label className="checkboxText">It</label>
+              <br />
+              <input type="checkbox" id="myCheck" />
+              <label className="checkboxText">Resturang</label>
+            </div>
+            <div id="rightBoxes">
+              <input type="checkbox" id="myCheck" />
+              <label className="checkboxText">Transport</label>
+              <br />
+              <input type="checkbox" id="myCheck" />
+              <label className="checkboxText">Leksaker</label>
+              <br />
+              <input type="checkbox" id="myCheck" />
+              <label className="checkboxText">Mode</label>
+              <br />
+              <input type="checkbox" id="myCheck" />
+              <label className="checkboxText">Allt</label>
+            </div>
           </div>
         </form>
         <div id="bankDiv">
