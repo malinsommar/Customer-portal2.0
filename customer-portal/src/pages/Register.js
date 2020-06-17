@@ -42,7 +42,7 @@ const RegisterForm = () => {
         </NavLink>
         <p id="textInfoRegistrera">
           Har du redan ett konto?
-          <a href="/home"> Logga in</a>
+          <a href="/login"> Logga in</a>
         </p>
       </form>
     </div>
