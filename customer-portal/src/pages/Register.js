@@ -24,7 +24,7 @@ const RegisterForm = () => {
         <FormComponent id="zip-code" value="Postnummer" type="zip-code" />
         <FormComponent
           id="phone-number"
-          value="Teledonnummer"
+          value="Telefon nummer"
           type="phone-number"
         />
         <FormComponent id="email" value="Email" type="email" />
@@ -36,9 +36,14 @@ const RegisterForm = () => {
         />
         <br />
         <NavLink to="/login" activeClassName="isActive">
-          <ButtonComponent title="Register" className="homePageButtons" />
-          <ButtonComponent title="Tillbaka" />
+          <div id="registerButton">
+            <ButtonComponent title="Register" className="homePageButtons" />
+          </div>
         </NavLink>
+        <p id="textInfoRegistrera">
+          Har du redan ett konto?
+          <a href="/login"> Logga in</a>
+        </p>
       </form>
     </div>
   );

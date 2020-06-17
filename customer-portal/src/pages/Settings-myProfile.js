@@ -35,7 +35,7 @@ const MyProfileChild = () => {
         <FormComponent id="zip-code" value="Postnummer" type="zip-code" />
         <FormComponent
           id="phone-number"
-          value="Teledonnummer"
+          value="Telefon nummer"
           type="phone-number"
         />
         <FormComponent id="email" value="Email" type="email" />
