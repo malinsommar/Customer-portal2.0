@@ -1,16 +1,16 @@
 .registerForm {
   color: #a1a8c3;
 }
+h1 {
+  text-align: center;
+}
 .RegisterCard {
-  top: 73px;
-  left: 244px;
-  width: 1012px;
-  height: 849px;
+  position: relative;
+  width: 60vw;
+  left: 19vw;
 }
 hr {
-  top: 131px;
-  left: 244px;
-  width: 1012px;
+  width: 60vw;
   height: 0px;
   border: 1px solid #edeff3;
   opacity: 1;
@@ -24,6 +24,8 @@ hr {
   position: relative;
   left: 20vw;
   top: -6.5vw;
+  width: 16vw;
+  margin: 0;
 }
 
 #social-security-number {
@@ -47,6 +49,8 @@ hr {
   position: relative;
   left: 20vw;
   top: -6.5vw;
+  width: 16vw;
+  margin: 0;
 }
 
 #phone-number {
@@ -69,4 +73,19 @@ hr {
   position: relative;
   left: 20vw;
   top: -7.5vw;
+  width: 16vw;
+  margin: 0;
+}
+#registerButton {
+  position: relative;
+  left: 27vw;
+  bottom: 2vw;
+}
+a {
+  color: #fdcc6b;
+}
+#textInfoRegistrera {
+  position: relative;
+  top: -2vw;
+  left: 22vw;
 }
