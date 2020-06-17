@@ -21,7 +21,29 @@ const Home = () => {
         <div id="MyProfileHome">
           <CardComponent children={MyProfileHome()} />
         </div>
+        <div id="MyPortfolioHome">
+          <CardComponent children={myPortfolioChild()} />
+        </div>
       </div>
+    </div>
+  );
+};
+
+const myPortfolioChild = () => {
+  return (
+    <div>
+      <p id="myProfile">Mitt Innehav</p>
+      <NavLink
+        className="navLink"
+        to="/settings/myProfile"
+        activeClassName="isActive"
+      >
+        <div id="portfolioButton">
+          <ButtonComponent title="Min Portfölj" className="homePageButtons" />
+        </div>
+      </NavLink>
+      <hr id="portfolioLine"></hr>
+      <br />
     </div>
   );
 };

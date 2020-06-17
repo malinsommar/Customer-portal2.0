@@ -30,7 +30,7 @@
 #profilePageButton {
   position: relative;
   left: 25vw;
-  top: -2vw;
+  top: -1vw;
 }
 #myProfile {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -48,4 +48,23 @@
 .info-profile {
   color: #3d4465;
   opacity: 1;
+}
+
+/* --My portfolio card */
+
+#MyPortfolioHome {
+  position: relative;
+  top: -39.35vw;
+  right: -35vw;
+  width: 43vw;
+}
+
+#portfolioButton {
+  position: relative;
+  top: -1vw;
+  left: 35vw;
+}
+
+#portfolioLine {
+  width: 43vw;
 }
