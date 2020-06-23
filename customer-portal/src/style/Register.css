@@ -19,42 +19,35 @@ hr {
   position: relative;
   left: 3vw;
 }
-
 #lastname {
   position: relative;
-  left: 20vw;
-  top: -6.5vw;
+  left: 25vw;
+  top: -4.5vw;
 }
-
 #social-security-number {
   position: relative;
   left: 3vw;
-  top: -4vw;
+  top: -3vw;
 }
-
 #adress {
   position: relative;
   left: 3vw;
   top: -2vw;
 }
-
 #city {
   position: relative;
   left: 3vw;
 }
-
 #zip-code {
   position: relative;
-  left: 20vw;
-  top: -6.5vw;
+  left: 25vw;
+  top: -5.3vw;
 }
-
 #phone-number {
   position: relative;
   left: 3vw;
   top: -4vw;
 }
-
 #email {
   position: relative;
   left: 3vw;
@@ -67,8 +60,8 @@ hr {
 }
 #confirm-password {
   position: relative;
-  left: 20vw;
-  top: -7.5vw;
+  left: 25vw;
+  top: -6.3vw;
 }
 #registerButton {
   position: relative;
