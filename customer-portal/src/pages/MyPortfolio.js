@@ -1,9 +1,11 @@
-import React from "react";
+import React, { Component, useState } from "react";
 import HeaderComponent from "../components/Header";
 import CardComponent from "../components/CardComponent";
 import RowComponent from "../components/RowComponent";
+import DropdownButton from "../components/DropdownButton";
 import ButtonComponent from "../components/Button";
 import "../style/MyPortfolio.css";
+import "../style/DropDown.css";
 
 const shares = [
   ["Volvo", "40000", "B", "500", "530-2452", "0.5%", "0.5%"],
@@ -27,6 +29,9 @@ const getAllShares = () => {
 };
 
 const MyPortfolioChild = () => {
+  const [itemPerPage, setItemPerPage] = useState(10);
+  const [currentPage, setCurrentPage] = useState(1);
+
   return (
     <div>
       <HeaderComponent />
@@ -60,10 +65,44 @@ const MyPortfolioChild = () => {
           <ButtonComponent title=">" className="portfolioButtons" />
           <ButtonComponent title=">>" className="portfolioButtons" />
         </div>
+        <DropdownButton id="dropdownButton" title="10" />
+
+        <p id="pagesShown">Visar 1-10 av {shares.length}</p>
       </div>
     </div>
   );
 };
+
+/*
+
+const showDropDown = () => {
+  document.getElementById("myDropdown").classList.toggle("show");
+
+  <div className="dropdown">
+              <button onclick={showDropDown} class="dropbtn">
+                Dropdown
+              </button>
+              <div id="myDropdown" className="dropdown-content">
+                <a href="/home">Link 1</a>
+                <a href="/home">Link 2</a>
+                <a href="/home">Link 3</a>
+              </div>
+            </div>
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function (event) {
+  if (!event.target.matches(".dropbtn")) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains("show")) {
+        openDropdown.classList.remove("show");
+      }
+    }
+  }
+};
+*/
 
 const MyPortfolio = () => {
   return (

@@ -73,7 +73,6 @@
   height: 2vw;
   width: 2vw;
 }
-
 table {
   margin-left: 1.6vw;
   border-collapse: collapse;
@@ -83,7 +82,26 @@ tr.bordered {
   border-bottom: 1pt solid #eef3ff;
 }
 
+/* --- Pagination list ---- */
+
 #choosePage {
-  margin-top: 3vw;
-  margin-left: 2vw;
+  position: relative;
+  top: 3vw;
+  left: 2vw;
+}
+
+#dropdownButton {
+  position: relative;
+  left: 60vw;
+  top: 1.2vw;
+  width: 5vw;
+  height: 3vw;
+}
+
+#pagesShown {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1vw;
+  position: relative;
+  left: 66vw;
+  bottom: 1.5vw;
 }

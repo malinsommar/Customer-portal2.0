@@ -54,7 +54,7 @@ const PreferencesChild = () => {
               <label className="checkboxText">Mode</label>
               <br />
               <input type="checkbox" id="myCheck" />
-              <label className="checkboxText">Allt</label>
+              <label className="checkboxText">Bank</label>
             </div>
           </div>
         </form>

@@ -11,6 +11,7 @@ import Preferences from "./pages/Settings-preferences";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import NoPageFound from "./pages/NoPageFound";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const routes = (
   <BrowserRouter>
