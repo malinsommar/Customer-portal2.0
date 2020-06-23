@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
+import { Progress } from "reactstrap";
 import HeaderComponent from "../components/Header";
 import ButtonComponent from "../components/Button";
 import CardComponent from "../components/CardComponent";
@@ -13,7 +14,7 @@ const Home = () => {
       <div id="homePage">
         <p id="homeTag">Hem</p>
         <div id="card">
-          <p>
+          <p id="cardText">
             Välkommen <strong>"Namn"!</strong> Ditt innehav blev uppdaterad
             <strong> "Datum".</strong> Ta gärna en titt!
           </p>
@@ -49,9 +50,11 @@ const myPortfolioChild = () => {
         <p id="updated">Uppdaterar 2020-06-23</p>
       </div>
       <div id="container">
-        <div id="color1"></div>
-        <div id="color2"></div>
-        <div id="color3"></div>
+        <Progress multi>
+          <Progress bar color="success" value="30" />
+          <Progress bar color="info" value="25" />
+          <Progress bar color="warning" value="20" />
+        </Progress>
       </div>
 
       <div id="box1">
@@ -94,22 +97,33 @@ const MyProfileHome = () => {
       </NavLink>
       <hr id="profile"></hr>
 
-      <p>Bild</p>
-      <div>
-        <p>Namn hämtas från databasen</p>
-        <p className="info">Person Nr/Organisations nr</p>
-        <p>Personnummer från databasen</p>
+      <div id="profileimg"></div>
+      <div id="InfoProfile">
+        <p id="name">Magnus Persson</p>
+        <p id="infon">Person Nr/Organisations nr</p>
+        <p id="nr">780817-6331</p>
       </div>
 
-      <p className="info">Föredragna industrier</p>
+      <div id="industris">
+        <p className="info">Föredragna industrier</p>
+        <p className="value1">industri 1</p>
+        <p className="value1">industri 2</p>
+        <p className="value2">industri 3</p>
+        <p className="value2">industri 4</p>
+      </div>
 
-      <p className="info">Kontaktuppgifter</p>
-      <div>
-        <p className="info-profile">Telefon: {"phonenumber"}</p>
-        <p className="info-profile">Mail: {"email"}</p>
-        <p className="info-profile">Addres: {"adress"}</p>
-        <p className="info-profile">Postnummer: {"zip-code"}</p>
-        <p className="info-profile">Postort: {"city"}</p>
+      <div id="infoCard">
+        <p className="info">Kontaktuppgifter</p>
+        <p className="info-profile">Telefon:</p>
+        <p className="infoAboutPerson">079 946 3654</p>
+        <p className="info-profile">Mail: </p>
+        <p className="infoAboutPerson">magnus.persson@hotmail.com</p>
+        <p className="info-profile">Addres: </p>
+        <p className="infoAboutPerson">Lantmilsgatan 7</p>
+        <p className="info-profile">Postnummer: </p>
+        <p className="infoAboutPerson">415 01</p>
+        <p className="info-profile">Postort: </p>
+        <p className="infoAboutPerson">Göteborg</p>
       </div>
     </div>
   );
