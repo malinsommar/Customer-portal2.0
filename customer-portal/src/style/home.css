@@ -55,8 +55,8 @@
 #MyPortfolioHome {
   position: relative;
   top: -39.35vw;
-  right: -35vw;
-  width: 43vw;
+  left: 35vw;
+  width: 44vw;
 }
 
 #portfolioButton {
@@ -67,4 +67,122 @@
 
 #portfolioLine {
   width: 43vw;
+}
+#container {
+  position: relative;
+  left: 1.5vw;
+  border: #edeff3 solid;
+  width: 40vw;
+  height: 1.5vw;
+  opacity: 1;
+  background-color: #edeff3;
+  margin-bottom: 1vw;
+}
+#color1 {
+  border: aqua solid;
+  width: 15vw;
+  height: 1.2vw;
+  background-color: aqua;
+}
+#color2 {
+  position: relative;
+  left: 15vw;
+  top: -1.5vw;
+  border: royalblue solid;
+  width: 7vw;
+  height: 1.2vw;
+  background-color: royalblue;
+}
+#color3 {
+  position: relative;
+  left: 22.3vw;
+  top: -3vw;
+  border: rgb(108, 144, 197) solid;
+  width: 13vw;
+  height: 1.2vw;
+  background-color: rgb(108, 144, 197);
+}
+#numberHolder {
+  position: relative;
+  width: 30vw;
+  height: 3vw;
+  left: 1.5vw;
+  margin-bottom: 1vw;
+}
+#number {
+  position: relative;
+  font-size: 2vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  top: -1.5vw;
+}
+#updated {
+  position: relative;
+  font-size: 1vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  top: -5vw;
+  left: 15vw;
+}
+#box1 {
+  height: 6vw;
+}
+#colorM {
+  border: aqua solid;
+  background-color: aqua;
+  position: relative;
+  width: 1vw;
+  height: 1vw;
+  top: 3vw;
+  left: 1vw;
+}
+.företag1 {
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5vw;
+  left: 5vw;
+  top: -1vw;
+}
+.info1 {
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1vw;
+  color: #a1a8c3;
+  left: 5vw;
+  top: -2vw;
+}
+.sek1 {
+  position: relative;
+  top: -6vw;
+  left: 35vw;
+}
+.amount {
+  position: relative;
+  top: -8.6vw;
+  left: 39vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1vw;
+  color: #a1a8c3;
+}
+#colorMode {
+  border: royalblue solid;
+  background-color: royalblue;
+  position: relative;
+  width: 1vw;
+  height: 1vw;
+  top: 3vw;
+  left: 1vw;
+}
+#colorLeksaker {
+  border: rgb(108, 144, 197) solid;
+  background-color: rgb(108, 144, 197);
+  position: relative;
+  width: 1vw;
+  height: 1vw;
+  top: 3vw;
+  left: 1vw;
+}
+#box2 {
+  height: 6vw;
+}
+#box3 {
+  height: 9vw;
 }

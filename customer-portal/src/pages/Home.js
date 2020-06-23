@@ -43,7 +43,38 @@ const myPortfolioChild = () => {
         </div>
       </NavLink>
       <hr id="portfolioLine"></hr>
-      <br />
+      <br></br>
+      <div id="numberHolder">
+        <p id="number">294,045 SEK</p>
+        <p id="updated">Uppdaterar 2020-06-23</p>
+      </div>
+      <div id="container">
+        <div id="color1"></div>
+        <div id="color2"></div>
+        <div id="color3"></div>
+      </div>
+
+      <div id="box1">
+        <div id="colorM"></div>
+        <p className="företag1">Medicin</p>
+        <p className="info1">Företag 1, Företag 2 +4</p>
+        <p className="sek1">20 456</p>
+        <p className="amount">SEK</p>
+      </div>
+      <div id="box2">
+        <div id="colorMode"></div>
+        <p className="företag1">Mode</p>
+        <p className="info1">Företag 1, Företag 2 +4</p>
+        <p className="sek1">20 456</p>
+        <p className="amount">SEK</p>
+      </div>
+      <div id="box3">
+        <div id="colorLeksaker"></div>
+        <p className="företag1">Leksaker</p>
+        <p className="info1">Företag 1, Företag 2 +4</p>
+        <p className="sek1">20 456</p>
+        <p className="amount">SEK</p>
+      </div>
     </div>
   );
 };

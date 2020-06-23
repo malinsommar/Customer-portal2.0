@@ -24,8 +24,6 @@ hr {
   position: relative;
   left: 20vw;
   top: -6.5vw;
-  width: 16vw;
-  margin: 0;
 }
 
 #social-security-number {
@@ -49,8 +47,6 @@ hr {
   position: relative;
   left: 20vw;
   top: -6.5vw;
-  width: 16vw;
-  margin: 0;
 }
 
 #phone-number {
@@ -73,8 +69,6 @@ hr {
   position: relative;
   left: 20vw;
   top: -7.5vw;
-  width: 16vw;
-  margin: 0;
 }
 #registerButton {
   position: relative;
