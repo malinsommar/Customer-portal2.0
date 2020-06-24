@@ -1,6 +1,7 @@
 import React from "react";
 import "../style/Login.css";
 import "../style/buttons.css";
+import icon from "../images/icon.png";
 import { NavLink } from "react-router-dom";
 import CardComponent from "../components/CardComponent";
 import ButtonComponent from "../components/Button";
@@ -11,6 +12,7 @@ const LoginForm = () => {
     <div>
       <form>
         <FormComponent id="user" value="Enter your email:" type="username" />
+        <br></br>
         <FormComponent
           id="passwordLogin"
           value="Enter your password:"
@@ -24,6 +26,7 @@ const LoginForm = () => {
           <div id="loginButton">
             <ButtonComponent title={"Login"} className="saveButtons" />
           </div>
+          <br></br>
         </NavLink>
       </form>
     </div>
@@ -33,6 +36,7 @@ const LoginForm = () => {
 const Login = () => {
   return (
     <div className="LoginCard">
+      <img id="icon" src={icon} alt="icon"></img>
       <CardComponent children={LoginForm()} />
     </div>
   );

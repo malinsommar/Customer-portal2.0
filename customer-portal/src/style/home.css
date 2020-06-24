@@ -8,6 +8,10 @@
   color: #656565;
   font-size: 1.6vw;
 }
+#icon {
+  position: relative;
+  left: 16vw;
+}
 
 #homePage {
   position: relative;
