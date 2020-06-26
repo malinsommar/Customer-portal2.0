@@ -6,7 +6,6 @@ import { NavLink } from "react-router-dom";
 import CardComponent from "../components/CardComponent";
 import ButtonComponent from "../components/Button";
 import FormComponent from "../components/FormComponent";
-import { render } from "@testing-library/react";
 
 const LoginForm = () => {
   return (
@@ -21,7 +20,9 @@ const LoginForm = () => {
         />
         <p id="textInfo">
           Saknar du ett konto?
-          <a href="/register"> Skapa konto</a>
+          <a href="/register" id="createAccount">
+            Skapa konto
+          </a>
         </p>
         <NavLink to="/home" activeClassName="isActive">
           <div id="loginButton">
