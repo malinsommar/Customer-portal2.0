@@ -718,7 +718,8 @@ const MyPortfolioChild = () => {
             className="portfolioButtons"
             isClicked={lastPage}
           />
-        </div>{" "}
+        </div>
+
         <DropdownButton
           id="dropdownButton"
           title={dropDownTitle}
