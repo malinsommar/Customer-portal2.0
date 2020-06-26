@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { useState } from "react";
 import HeaderComponent from "../components/Header";
 import CardComponent from "../components/CardComponent";
 import RowComponent from "../components/RowComponent";
@@ -8,6 +8,10 @@ import "../style/MyPortfolio.css";
 import "../style/DropDown.css";
 
 const shares = [
+  ["Volvo", "40000", "B", "500", "530-2452", "0.5%", "0.5%"],
+  ["Saab", "30000", "A", "1000", "350-2362", "0.6%", "0.6%"],
+  ["Volvo", "40000", "B", "500", "530-2452", "0.5%", "0.5%"],
+  ["Saab", "30000", "A", "1000", "350-2362", "0.6%", "0.6%"],
   ["Volvo", "40000", "B", "500", "530-2452", "0.5%", "0.5%"],
   ["Saab", "30000", "A", "1000", "350-2362", "0.6%", "0.6%"],
 ];
@@ -52,6 +56,7 @@ const MyPortfolioChild = () => {
           </tbody>
         </table>
       </div>
+
       <div id="pageInfo">
         <div id="choosePage">
           <ButtonComponent title="<<" className="portfolioButtons" />

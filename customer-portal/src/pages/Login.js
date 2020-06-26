@@ -6,6 +6,7 @@ import { NavLink } from "react-router-dom";
 import CardComponent from "../components/CardComponent";
 import ButtonComponent from "../components/Button";
 import FormComponent from "../components/FormComponent";
+import { render } from "@testing-library/react";
 
 const LoginForm = () => {
   return (
@@ -41,5 +42,13 @@ const Login = () => {
     </div>
   );
 };
+
+/*const style = StyleSheet.create({
+  loginContainer: {
+    height: "45%",
+    lenght: "50%",
+    alignItemes: "center",
+  },
+});*/
 
 export default Login;

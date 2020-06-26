@@ -1,19 +1,23 @@
 .LoginCard {
   position: relative;
-  top: 10vw;
-  left: 25vw;
-  width: 50vw;
-  height: 40vw;
+  top: 6vw;
+  left: 25%;
+  width: 50%;
+  height: 40%;
+}
+#icone {
+  position: relative;
+  left: 11vw;
 }
 #user {
   position: relative;
-  top: 1vw;
-  left: 18vw;
+  top: 50%;
+  left: 35%;
 }
 #passwordLogin {
   position: relative;
   top: 0.5vw;
-  left: 18vw;
+  left: 35%;
 }
 #textInfo {
   position: relative;
@@ -22,7 +26,7 @@
 }
 #loginButton {
   position: relative;
-  left: 20vw;
+  left: 42%;
   bottom: 2vw;
 }
 a {

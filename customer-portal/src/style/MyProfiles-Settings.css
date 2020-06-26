@@ -9,7 +9,7 @@
   background: url(../images/Geralt.jpg) no-repeat center;
 }
 #editButton {
-  background: #fdcc6b url(../images/edit-icon.svg) no-repeat 0.5vw center;
+  background: #fdcc6b url(../images/edit-icon.svg) no-repeat 0.4vw center;
 }
 .editPen {
   border-radius: 50%;
