@@ -6,7 +6,7 @@ import {
   DropdownItem,
 } from "reactstrap";
 
-const DropdownButton = ({ id, title }) => {
+const DropdownButton = ({ id, title, on10, on30, on50, on100, onAll }) => {
   const [dropdownOpen, setOpen] = useState(false);
 
   const toggle = () => setOpen(!dropdownOpen);
@@ -16,12 +16,12 @@ const DropdownButton = ({ id, title }) => {
       <DropdownToggle caret>{title}</DropdownToggle>
       <DropdownMenu>
         <DropdownItem header>Items per page</DropdownItem>
-        <DropdownItem /*disabled*/>10</DropdownItem>
-        <DropdownItem>30</DropdownItem>
-        <DropdownItem>50</DropdownItem>
-        <DropdownItem>100</DropdownItem>
+        <DropdownItem onClick={on10} /*disabled*/>10</DropdownItem>
+        <DropdownItem onClick={on30}>30</DropdownItem>
+        <DropdownItem onClick={on50}>50</DropdownItem>
+        <DropdownItem onClick={on100}>100</DropdownItem>
         <DropdownItem divider />
-        <DropdownItem>All</DropdownItem>
+        <DropdownItem onClick={onAll}>All</DropdownItem>
       </DropdownMenu>
     </ButtonDropdown>
   );

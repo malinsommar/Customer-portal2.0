@@ -84,18 +84,16 @@ tr.bordered {
 
 /* --- Pagination list ---- */
 
-#choosePage {
-  position: relative;
-  top: 3vw;
-  left: 2vw;
-}
-
 #dropdownButton {
   position: relative;
   left: 60vw;
-  top: 1.2vw;
   width: 5vw;
   height: 3vw;
+}
+
+#choosePage {
+  position: relative;
+  top: 3vw;
 }
 
 #pagesShown {
@@ -103,5 +101,10 @@ tr.bordered {
   font-size: 1vw;
   position: relative;
   left: 66vw;
-  bottom: 1.5vw;
+  bottom: 2.2vw;
+}
+
+.card {
+  position: absolute;
+  bottom: 40vw;
 }
