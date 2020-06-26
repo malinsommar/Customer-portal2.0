@@ -1,7 +1,7 @@
 import React from "react";
 import "../style/MyPortfolio.css";
 
-const FormComponent = ({
+const RowComponent = ({
   company,
   totalWorth,
   sharesType,
@@ -29,4 +29,4 @@ const FormComponent = ({
     </tr>
   );
 };
-export default FormComponent;
+export default RowComponent;
